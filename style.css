@@ -1,0 +1,105 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ 
+@media screen and (min-width: 900px) {
+    article {
+      padding: 1rem 3rem;
+    }
+  }
+
+  @supports (display: flex) {
+    @media screen and (min-width: 900px) {
+      article {
+        display: flex;
+      }
+    }
+  }
+
+h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+
+h3 {
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: yellow;
+}
+
+header {
+    background-color: darkgray;
+}
+
+article {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bio-pic {
+    width: 150px;
+    height: auto;
+    border-radius: 75%;
+    padding: 10px;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5px;
+    width: 100%;
+    height: auto;
+}  
+
+
+footer {
+    padding: 20px;
+}

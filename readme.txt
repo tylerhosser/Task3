@@ -1,0 +1,2 @@
+I have setup this project to display some of the abilities of flex. I have struggled with getting my project images to be responsive 
+and to get the site nav working, but overall I am pretty happy with my ability to use flex!
